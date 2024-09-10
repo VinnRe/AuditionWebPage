@@ -1,0 +1,49 @@
+.navbar-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333333;
+    width: 100%;
+    height: 10vh;
+
+}
+
+.right-nav-container {
+    display: flex;
+    flex-direction: row;
+    margin-right: 1.5rem;
+    align-items: center;
+}
+
+.right-nav-container a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+.right-nav-container a:hover {
+    color: var(--primary-color);
+}
+
+.account-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.account-container:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.account-container p {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+}
+
+.left-nav-container h1 {
+    margin-left: 2rem;
+}
