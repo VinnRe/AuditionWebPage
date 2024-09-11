@@ -8,6 +8,19 @@
 
 }
 
+.header-left {
+    margin-right: 3rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
+.header-left:hover {
+    color: var(--primary-color);
+}
+
 .right-nav-container {
     display: flex;
     flex-direction: row;

@@ -1,0 +1,22 @@
+.activities-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.activities-title {
+    margin-bottom: 2rem;
+}
+
+.activities-title h1{
+    font-size: 3rem;
+} 
+
+.activities-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: auto;
+    justify-content: space-evenly;
+}
