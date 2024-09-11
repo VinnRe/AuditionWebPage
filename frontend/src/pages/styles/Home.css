@@ -1,13 +1,18 @@
 .hero-section {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    padding: 1rem;
 }
 
 .left-hero-section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 50%;
+    padding: 1rem;
+    box-sizing: border-box;
 }
 
 .left-hero-section h1 {
@@ -18,7 +23,8 @@
 .left-hero-section .start-btn {
     margin-top: 2rem;
     background-color: var(--light-primary-color);
-    width: 10vw;
+    width: 80%;
+    max-width: 200px;
     height: 8vh;
     border-radius: 1rem;
     border: 0;
@@ -26,11 +32,13 @@
     font-family: "Space Mono", monospace;
     font-weight: 800;
     font-size: 1.3rem;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .left-hero-section .start-btn:hover {
     background-color: var(--dark-primary-color);
     cursor: pointer;
+    transform: scale(1.3);
 }
 
 .h1-container {
@@ -48,21 +56,58 @@
     position: relative;
     align-items: center;
     justify-content: center;
-}
-
-.rh-title {
-    position: absolute;
-    top: 25rem;
-    left: 50%;
-    transform: translateX(-50%);
-    color: white;
-    font-size: 3.5rem;
-    z-index: 1;
-    width: 40vw;
+    width: 50%;
 }
 
 .rh-img {
     z-index: 0;
     max-width: 100%;
     height: auto;
+}
+
+@media (max-width: 1024px) {
+    .hero-section {
+        flex-direction: column;
+    }
+    
+    .left-hero-section, .right-hero-section {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-hero-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .left-hero-section .start-btn {
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    .left-hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .left-hero-section .start-btn {
+        width: 90%;
+    }
+
+    .h1-container {
+        flex-direction: column;
+    }
+
+    .h1-sub {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .left-hero-section h1 {
+        font-size: 1.8rem;
+    }
+
+    .left-hero-section .start-btn {
+        font-size: 1rem;
+    }
 }
