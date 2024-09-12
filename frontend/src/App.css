@@ -4,6 +4,9 @@
     --primary-color: #0DAB0C;
     --light-primary-color: #0DAB0C;
     --dark-primary-color: #189718;
+    --scroll-primary-color: #0c980c;
+    --scroll-light-primary-color: #0DAB0C;
+    --scroll-dark-primary-color: #106210;
     --dark-bg-color: #1C1C1C;
     --grey-bg-color: #393838;
 }
