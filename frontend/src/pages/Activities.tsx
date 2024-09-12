@@ -6,6 +6,12 @@ import llImg from "../assets/activity_imgs/linked_lists.png"
 import searchImg from "../assets/activity_imgs/searching_algo.gif"
 import sortImg from "../assets/activity_imgs/sort_algo.png"
 import sandqImg from "../assets/activity_imgs/sandq.png"
+import treeImg from "../assets/activity_imgs/trees.png"
+import graphImg from "../assets/activity_imgs/graph.png"
+import greedImg from "../assets/activity_imgs/greed.png"
+import recurImg from "../assets/activity_imgs/recursion.png"
+import backImg from "../assets/activity_imgs/back.png"
+import dynamicImg from "../assets/activity_imgs/dynamic.png"
 
 const Activities = () => {
     return (
@@ -43,6 +49,36 @@ const Activities = () => {
                     actName="Stack & Queue"
                     imgPath={sandqImg}
                     navigateTo="/activites/stack-and-queue"
+                />
+                <Activity 
+                    actName="Trees"
+                    imgPath={treeImg}
+                    navigateTo="/activites/trees"
+                />
+                <Activity 
+                    actName="Graph"
+                    imgPath={graphImg}
+                    navigateTo="/activites/strings"
+                />
+                <Activity 
+                    actName="Greedy Method"
+                    imgPath={greedImg}
+                    navigateTo="/activites/greedy-method"
+                />
+                <Activity 
+                    actName="Recursion"
+                    imgPath={recurImg}
+                    navigateTo="/activites/recursion"
+                />
+                <Activity 
+                    actName="Backtracking Algo"
+                    imgPath={backImg}
+                    navigateTo="/activites/backtracking-algo"
+                />
+                <Activity 
+                    actName="Dynamic Programming"
+                    imgPath={dynamicImg}
+                    navigateTo="/activites/dynamic-programming"
                 />
             </section>
         </main>
