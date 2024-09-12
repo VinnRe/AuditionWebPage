@@ -13,3 +13,7 @@
     cursor: pointer;
     transform: scale(1.1);
 }
+
+.act-img {
+    width: 80%;
+}
