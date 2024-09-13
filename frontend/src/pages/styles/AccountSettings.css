@@ -38,6 +38,8 @@
 .as-top-header h1 {
     font-size: 2.3rem;
     color: white;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.4),
+                 0 0 10px rgba(255, 255, 255, 0.2);
 }
 
 .as-top-header a:hover {
