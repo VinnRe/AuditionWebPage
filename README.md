@@ -1,4 +1,4 @@
-![alt text](/frontend/src/assets/3dCube.gif)
+![alt text](https://github.com/VinnRe/CodeAndConquer/blob/main/frontend/src/assets/3dCube.gif)
 # Code & Conquer
 
 A React Web Application using Vite and TypeScript
