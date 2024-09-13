@@ -3,6 +3,8 @@ import './App.css'
 import Home from './pages/Home'
 import NavBar from './components/NavBar'
 import Activities from './pages/Activities'
+import Pricing from './pages/Pricing'
+import AccountSettings from './pages/AccountSettings'
 
 function App() {
   return (
@@ -35,6 +37,26 @@ function App() {
               <>
                 <NavBar />
                 <Activities />
+              </>
+            }
+          />
+
+          <Route 
+            path='/pricing'
+            element={
+              <>
+                <NavBar />
+                <Pricing />
+              </>
+            }
+          />
+
+          <Route 
+            path='/account-settings'
+            element={
+              <>
+                <NavBar />
+                <AccountSettings />
               </>
             }
           />
