@@ -1,0 +1,138 @@
+.account-settings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.account-settings .as-save-btn {
+    color: white;
+    background-color: var(--primary-color);
+    font-size: 1rem;
+    border-radius: 3rem;
+    width: 13vw;
+    height: 6vh;
+    margin-top: 1rem;
+    border: 0;
+    box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    top: 83vh;
+    left: 69vw;
+}
+
+.account-settings .as-save-btn:hover {
+    background-color: var(--dark-primary-color);
+}
+
+.as-top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20vw;
+    width: 100%;
+    height: 45vh;
+    margin-top: -4vh;
+    margin-bottom: 2vh;
+}
+
+.as-top-header h1 {
+    font-size: 2.3rem;
+    color: white;
+}
+
+.as-top-header a:hover {
+    color: white;
+    background-color: var(--dark-primary-color);
+    cursor: pointer;
+}
+
+.as-container {
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    height: auto;
+    justify-content: space-between;
+    background-color: var(--grey-bg-color);
+    border-radius: 2rem;
+    box-shadow: 0 0.3rem 1.3rem rgba(0, 0, 0, 0.2);
+    margin-top: -15vh;
+    padding: 2rem 5rem 4.5rem 5rem;
+    margin-bottom: 1rem;
+}
+
+.as-container .as-container-left {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.as-container .as-container-left h1 {
+    font-size: 2rem;
+    color: white;
+}
+
+.as-container .as-container-left p {
+    font-size: 1rem;
+    margin-bottom: 4vh;
+    color: white;
+}
+
+.as-container .as-container-left .as-name-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.as-container .as-container-left .as-name-container input {
+    width: 29vw;
+    height: 6vh;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.2);
+    background-color: white;
+    font-size: 1rem;
+    padding-left: 1vw;
+    margin-bottom: 2rem;
+}
+
+.as-container .as-container-left .as-emailpass-container {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+.as-container .as-container-left .as-emailpass-container a {
+    margin-top: -2vh;
+    margin-right: 0.3rem;
+    text-decoration: none;
+    color: white;
+}
+
+.as-container .as-container-left .as-emailpass-container .as-a-change {
+    margin-bottom: 1rem;
+}
+
+.as-container .as-container-left .as-emailpass-container input {
+    width: 29vw;
+    height: 6vh;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.2);
+    background-color: white;
+    font-size: 1rem;
+    padding-left: 1vw;
+    margin-bottom: 2rem;
+}
+
+.as-container .as-container-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20vw;
+}
+
+.default-acc-pic {
+    color: var(--primary-color);
+}
