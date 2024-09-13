@@ -3,7 +3,7 @@ import cube from "../assets/3dCube.gif"
 
 const Home = () => {
     return (
-        <>
+        <main className='home-main'>
             <section className='hero-section'>
                 <div className="left-hero-section">
                     <div className='h1-container'>
@@ -17,10 +17,27 @@ const Home = () => {
                     <img src={cube} alt="3dCube" className='rh-img'/>
                 </div>
             </section>
-            <section className='offer-section'>
-                <h1>HELLO</h1>
+            <section className='about-section'>
+                <h1>ABOUT</h1>
+                <div className="about-info">
+                    <p className='about-p'>
+                        With Code & Conquer, users can conquer and dominate DSA in an all-in-one web application.
+                        <br />
+                        <br />
+                        The goal of this project is to help others learn better data structures and algorithms 
+                        in one website where they won't have the need to use other sites for them to try on IDEs of their choice.
+                        This website will also give activities while helping others learn and practice the topics of DSA.
+                        <br />
+                        <br />
+                        <p className="quote">
+                            "The first and greatest victory is to conquer DSA; to be conquered by DSA is of all things most shameful and vile." 
+                            <br />
+                            - ...Maybe Plato
+                        </p>
+                    </p>
+                </div>
             </section>
-        </>
+        </main>
     )
 }
 
