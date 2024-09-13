@@ -5,13 +5,17 @@
     border: 0.3rem solid var(--dark-primary-color);
     width: 25vw;
     margin-bottom: 1rem;
-    transition: transform 0.3 ease background-color 0.3 ease;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 8px 15px var(--dark-shadow-color),
+                0 4px 6px var(--sdark-shadow-color);
 }
 
 .activity-container:hover {
     background-color: var(--grey-bg-color);
     cursor: pointer;
     transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(24, 151, 24, 1),
+                 0 0 20px rgba(24, 151, 24, 0.5);
 }
 
 .act-img {

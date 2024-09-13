@@ -12,6 +12,9 @@
 
 .activities-title h1{
     font-size: 3rem;
+    text-decoration: underline;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.4),
+                 0 0 10px rgba(255, 255, 255, 0.2);
 } 
 
 .activities-container {

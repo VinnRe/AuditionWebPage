@@ -4,7 +4,6 @@
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    /* margin-top: -4rem; */
 }
 
 .left-hero-section {
@@ -18,6 +17,7 @@
     box-sizing: border-box;
     background-color: #3130304d;
     border-radius: 2rem;
+    box-shadow: 5px 10px var(--dark-shadow-color);
 }
 
 .left-hero-section h1 {
@@ -38,12 +38,16 @@
     font-weight: 800;
     font-size: 1.3rem;
     transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 8px 15px var(--dark-shadow-color),
+                0 4px 6px var(--sdark-shadow-color);
 }
 
 .left-hero-section .start-btn:hover {
     background-color: var(--dark-primary-color);
     cursor: pointer;
     transform: scale(1.3);
+    box-shadow: 0 0 10px rgba(24, 151, 24, 1),
+                 0 0 20px rgba(24, 151, 24, 0.5);
 }
 
 .h1-container {
@@ -54,6 +58,8 @@
 .h1-sub {
     padding-left: 1.5rem;
     color: var(--primary-color);
+    text-shadow: 0 0 10px rgba(24, 151, 24, 1),
+                 0 0 20px rgba(24, 151, 24, 0.5);
 }
 
 .right-hero-section {
