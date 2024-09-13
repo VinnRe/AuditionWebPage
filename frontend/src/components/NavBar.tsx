@@ -12,7 +12,6 @@ function NavBar () {
             <div className="right-nav-container">
                 <a href="/activities">Activities</a>
                 <a href="/pricing">Pricing</a>
-                <a href="/about">About</a>
                 <a href="/account-settings" className="account-container">
                     <MdOutlineAccountCircle className='account-icon' size='1.5rem'/>
                     <p>Account Name</p>
