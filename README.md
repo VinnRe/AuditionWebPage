@@ -1,4 +1,4 @@
-<img src="https://github.com/VinnRe/CodeAndConquer/blob/main/frontend/src/assets/3dCube.gif" alt="3D Cube GIF">
+<img src="frontend/src/assets/3dCube.gif" alt="3D Cube GIF">
 
 <h1>Code & Conquer</h1>
 
