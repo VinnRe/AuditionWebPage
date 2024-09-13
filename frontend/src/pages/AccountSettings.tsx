@@ -1,5 +1,4 @@
 import "./styles/AccountSettings.css"
-import { IoIosLogOut } from "react-icons/io";
 import { MdAccountCircle } from "react-icons/md";
 
 const AccountSettings = () => {
